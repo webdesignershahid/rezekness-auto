@@ -1,0 +1,26 @@
+/*
+	Main content containers
+*/
+.container, .container-lg {
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	@include sm-devices {
+		max-width: 570px;
+	}
+	@include md-devices {
+		max-width: 750px;
+	}
+	@include lg-devices {
+		max-width: 990px;
+	}
+	@include xl-devices {
+		max-width: 1170px;
+	}
+	@include xxl-devices {
+		max-width: 1365px;
+	}
+	@media screen and (min-width: 1600px) {
+		max-width: 1530px;
+	}
+}

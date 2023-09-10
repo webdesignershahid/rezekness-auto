@@ -1,0 +1,103 @@
+/*-------------------------------------------------
+    [ ## Fields ]
+*/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+input[type=time]::-webkit-inner-spin-button, 
+input[type=time]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px rgba(var(--color__black), 0) inset;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(var(--color__black), 0) inset;
+    -webkit-text-fill-color: var(--color__black) !important;
+}
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px rgba(var(--color__black), 0) inset;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(var(--color__black), 0) inset;
+    -webkit-text-fill-color: var(--color__black) !important;
+}
+textarea.form-control {
+    display: block;
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+.form-floating > .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+}
+
+// Placeholder Color
+::-webkit-input-placeholder {
+    color: var(--color__black);
+}
+.widget_newsletter::-webkit-input-placeholder {
+    color: #808080;
+}
+
+:-moz-placeholder {
+    color: var(--color__black);
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: var(--color__black);
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: var(--color__black);
+}
+
+.form-group {
+    label {
+        color: var(--color__black);
+        font-weight: 300;
+        margin-bottom: 0;
+        user-select: none;
+        cursor: pointer;
+    }
+    .form-control {
+        padding: 1rem 1.4rem;
+        line-height: 1.25;
+        height: 50px;
+        background-color: var(--color__white);
+        border: 1px solid #D6D6D6;
+    }
+}

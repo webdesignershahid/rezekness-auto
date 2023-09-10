@@ -1,0 +1,36 @@
+:root {
+    --color__black:                  #000000;
+    --color__white:                  #FFFFFF;
+    --color__blue:                   #23274F;
+    --color__silver:                 #7F8091;
+    --color__ash_white:              #F6F6F6;
+    --color__text_heading:           #F6F6F6;
+    --color__light_green:            #BFE813;
+
+
+    // Font sizes
+    --base__font-size: 15px;
+    --heading__one: 48px;
+    --heading__two: 36px;
+    --heading__three: 32px;
+    --heading__four: 24px;
+    --heading__five: 20px;
+    --heading__six: 16px;
+    
+    // line Height
+    --font__line-height-body: 1.6;
+    --font__line-height-heading: 1.25;
+    --font__line-height-paragraph: 1.7;
+
+    // Font Family
+    --font-kanit-regular:       'Kanit Regular';
+    --font-kanit-thin:          'Kanit Thin';
+    --font-kanit-extralight:    'Kanit ExtraLight';
+    --font-kanit-light:         'Kanit Light';
+    --font-kanit-medium:        'Kanit Medium';
+    --font-kanit-semibold:      'Kanit SemiBold';
+    --font-kanit-bold:          'Kanit Bold';
+    --font-kanit-extrabold:     'Kanit ExtraBold';
+    --font-kanit-black:         'Kanit Black';
+
+}

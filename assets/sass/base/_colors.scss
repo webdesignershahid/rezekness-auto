@@ -1,0 +1,42 @@
+// Background Color
+.white-bg {
+    background-color: var(--color__white);
+}
+.transparent-bg {
+    background-color: transparent;
+}
+.bg-purple {
+    background-color: var(--color__purple);
+}
+.bg-black {
+    background-color: var(--color__black);
+}
+
+
+
+// Text color
+.white-text {
+    color: var(--color__white);
+}
+.text-black {
+    color: var(--color__black);
+}
+.text-red-poly {
+    color: var(--color__red_poly);
+}
+.text-blue {
+    color: var(--color__blue);
+}
+.text-purple {
+    color: var(--color__purple);
+}
+.text-dark-purple {
+    color: var(--color__dark_purple);
+}
+.text-light-purple {
+    color: var(--color__light_purple);
+}
+// Border 
+.border-no {
+    border: 0;
+}

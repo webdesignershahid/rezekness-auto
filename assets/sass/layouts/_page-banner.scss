@@ -1,0 +1,32 @@
+.page-banner {
+    @include lg-devices {
+        padding: 110px 0 0 0;
+    }
+    .auto-search-form {
+        margin: 60px 0;
+        @include lg-devices {
+            margin: -60px 0;
+        }
+
+        form {
+            @include lg-devices {
+                padding: 36px 32px;
+                border-radius: 80px;
+            }
+            @include xl-devices {
+                padding: 36px 50px;
+            }
+            .search-items {
+                .form-group {
+                    width: calc(32% - 15px);
+
+                    @include lg-devices {
+                        width: inherit;
+                        flex: auto;
+
+                    }
+                }
+            }
+        }
+    }
+}
